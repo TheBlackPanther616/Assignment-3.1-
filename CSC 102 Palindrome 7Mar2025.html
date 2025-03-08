@@ -1,21 +1,28 @@
 <!DOCTYPE html>
+<!--Written by Joseph Hudson Jr-->
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--This is to link the CSS-->
     <link rel = "stylesheet" href ="CSC 102 Palindrome 7Mar2025.css">
+    <!--This is the link to the javascript-->
     <script src = "CSC 102 Palindrome 7Mar2025().js"></script>
     <title>Magic String</title>
 </head>
 <body>
+    <!--This begins the Title page-->
     <h1> The Palindrome Paradox </h1>
+    <!--Establishment of the Form and Inputs-->
     <form id="stringInput" onsubmit="return false">
         First Word: <input type = "text" id = "firstword"/>
         <br> <br>
         <input type = "submit" onclick = "strings();"/>
 
         </form>
+        <!--Setting up words for animation-->
         <div class="flash">Palindrome</div>
+        <!--Paragraph for results-->
         <p id = "Results">Results</p>
 </body>
 </html>
