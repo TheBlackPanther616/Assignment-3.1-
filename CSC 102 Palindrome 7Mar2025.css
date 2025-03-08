@@ -1,0 +1,41 @@
+body
+{
+    background-image: url(Images/600px-SmokeGlyph.png);
+    background-repeat: repeat;
+}
+form
+{
+    background-color: transparent;
+    text-align: right;
+    font-size: 20px;
+    font-family: monospace;
+    font-style: normal;
+    font-weight: bold;
+    color:blueviolet;
+}
+.flash 
+{
+    font-size: 3rem;
+    text-align: center;
+    color:yellow;
+    animation: flash 5s infinite alternate;
+}
+
+@keyframes flash {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+p
+{
+    background-color: transparent;
+    text-align: center;
+    font-size: 50px;
+    font-family: monospace;
+    font-style: italic;
+    font-weight: bold;
+    color: rebeccapurple;
+}
